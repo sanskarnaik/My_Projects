@@ -4,46 +4,186 @@
     "ip": "0.0.0.0",
     "port": 8765,
 
-    "agents": [    
+    "agents": [  
+        {
+            "definition": "defs/my_robot.json",
+            "style": { "fill": "green", "stroke": "black" },
+            "position": {
+                "x": -575,
+                "y": 0,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/my_robot.json",
+            "style": { "fill": "red", "stroke": "black" },
+            "position": {
+                "x": 575,
+                "y": 0,
+                "theta": 3.14
+            }
+        },
+        {
+            "definition": "defs/block.json",
+            "style": { "fill": "green", "stroke": "black" },
+            "position": {
+              "x": 50,
+              "y": 0,
+              "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block.json",
+            "style": { "fill": "red", "stroke": "black" },
+            "position": {
+              "x": 150,
+              "y": 0,
+              "theta": 0
+            }
+        }
+          
+    ],
+
+    "references": [
+        {
+            "definition": "defs/block.json",
+            "style": { "fill": "green", "stroke": "black"},
+            "position": {"x": 60, "y": 0, "theta": 0 }
+        },
+        {
+            "definition": "defs/block.json",
+            "style": { "fill": "red", "stroke": "black"},
+            "position": {"x": 150, "y": 0, "theta": 0 }
+        }
     ],
 
     "statics": [
         {
             "style": { "fill": "gray", "stroke": "none" },
             "shape": [
-                { "x": -350, "y": -200 },
-                { "x": -350,  "y": 200 },
-                { "x": -340,  "y": 200 },
-                { "x": -340, "y": -200 }
+                { "x": -625, "y": -300 },
+                { "x": -625,  "y": 300 },
+                { "x": -610,  "y": 300 },
+                { "x": -610, "y": -300 }
             ]
         },
         {
-            "style": { "fill": "gray", "stroke": "none" },
+            "style": { "fill": "brown", "stroke": "none" },
             "shape": [
-                { "x": 350, "y": -200 },
-                { "x": 350,  "y": 200 },
-                { "x": 340,  "y": 200 },
-                { "x": 340, "y": -200 }
+                { "x": 625, "y": -300 },
+                { "x": 625,  "y": 300 },
+                { "x": 610,  "y": 300 },
+                { "x": 610, "y": -300 }
             ]
         },
         {
-            "style": { "fill": "gray", "stroke": "none" },
+            "style": { "fill": "red", "stroke": "none" },
             "shape": [
-                { "x": -350, "y": 200 },
-                { "x": 350,  "y": 200 },
-                { "x": 350,  "y": 190 },
-                { "x": -350, "y": 190 }
+                { "x": -625, "y": 300 },
+                { "x": 625,  "y": 300 },
+                { "x": 625,  "y": 285 },
+                { "x": -625, "y": 285 }
             ]
         },
         {
-            "style": { "fill": "gray", "stroke": "none" },
+            "style": { "fill": "green", "stroke": "none" },
             "shape": [
-                { "x": -350, "y": -200 },
-                { "x": 350,  "y": -200 },
-                { "x": 350,  "y": -190 },
-                { "x": -350, "y": -190 }
+                { "x": -625, "y": -300 },
+                { "x": 625,  "y": -300 },
+                { "x": 625,  "y": -285 },
+                { "x": -625, "y": -285 }
             ]
-        }
+        },
+        {
+            "style": { "fill": "black", "stroke": "none" },
+            "shape": [
+                { "x": 525, "y": -300 },
+                { "x": 525,  "y": -100 },
+                { "x": 510,  "y": -100 },
+                { "x": 510, "y": -300 }
+            ]
+        },
+        {
+            "style": { "fill": "black", "stroke": "none" },
+            "shape": [
+                { "x": 525, "y": 100 },
+                { "x": 525,  "y": 300 },
+                { "x": 510,  "y": 300 },
+                { "x": 510, "y": 100 }
+            ]
+        },
+        {
+            "style": { "fill": "blue", "stroke": "none" },
+            "shape": [
+                { "x": -525, "y": -300 },
+                { "x": -525,  "y": -100 },
+                { "x": -510,  "y": -100 },
+                { "x": -510, "y": -300 }
+            ]
+        },
+        {
+            "style": { "fill": "blue", "stroke": "none" },
+            "shape": [
+                { "x": -525, "y": 100 },
+                { "x": -525,  "y": 300 },
+                { "x": -510,  "y": 300 },
+                { "x": -510, "y": 100 }
+            ]
+        },
+        {
+            "style": { "fill": "orange", "stroke": "none" },
+            "shape": [
+                { "x": 350, "y": -100 },
+                { "x": 350,  "y": 100 },
+                { "x": 335,  "y": 100 },
+                { "x": 335, "y": -100 }
+            ]
+        },
+        {
+            "style": { "fill": "orange", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -100 },
+                { "x": -350,  "y": 100 },
+                { "x": -335,  "y": 100 },
+                { "x": -335, "y": -100 }
+            ]
+        },
+        {
+            "style": { "fill": "blue", "stroke": "none" },
+            "shape": [
+                { "x": -150, "y": 100 },
+                { "x": -150,  "y": 300 },
+                { "x": -135,  "y": 300 },
+                { "x": -135, "y": 100 }
+            ]
+        },
+        {
+            "style": { "fill": "blue", "stroke": "none" },
+            "shape": [
+                { "x": -150, "y": -100 },
+                { "x": -150,  "y": -300 },
+                { "x": -135,  "y": -300 },
+                { "x": -135, "y": -100 }
+            ]
+        },
+        {
+            "style": { "fill": "blue", "stroke": "none" },
+            "shape": [
+                { "x": 150, "y": 100 },
+                { "x": 150,  "y": 300 },
+                { "x": 135,  "y": 300 },
+                { "x": 135, "y": 100 }
+            ]
+        },
+        {
+            "style": { "fill": "blue", "stroke": "none" },
+            "shape": [
+                { "x": 150, "y": -100 },
+                { "x": 150,  "y": -300 },
+                { "x": 135,  "y": -300 },
+                { "x": 135, "y": -100 }
+            ]
+        } 
 
     ]
 
