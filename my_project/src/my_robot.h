@@ -18,6 +18,12 @@ public:
     void start() {}
     void update()
     {
+        /*
+        This if condition checks the no. of iterations, to bring the block and to deposit.
+        it sould be eqaul to 10.
+        and id == 0 represents, it is my first robot.
+        All other if conditions represents my way points to simulate my robot.
+        */
 
         if (itr < 11 && id() == 0) {
             if ((position().x == -575 && position().y == 0) || flag_1 == 1) {
@@ -58,6 +64,11 @@ public:
             }
             if (flag_6 == 1) {
                 
+                /*
+                This condition checks for my box, and if the robot and box are too close,
+                then robot attaches with my box.
+                */
+
                 if (k==2) {
                     move_toward(50,0, 50, 10);
                 if (sensor_reflection_type(0) == "Block" && sensor_value(0) <= 25) {
@@ -129,8 +140,13 @@ public:
                 }
             }
         }
-        //cout << position().x << "," << position().y << endl;
-
+        
+        /*
+        This if condition checks the no. of iterations, to bring the block and to deposit.
+        it sould be equal to 10.
+        and id == 1 represents, it is my second robot.
+        All other if conditions represents my way points to simulate my robot.
+        */
 
 
         if (itr < 11 & id() == 1) {
@@ -164,13 +180,7 @@ public:
                     flag_6 = 1;
                 }
             }
-            /*if (flag_5 == 1) {
-                move_toward(150, 0, 50 ,10);
-                if (position().x >= -150.3 && position().y >= 0) {
-                    flag_5 = 0;
-                    flag_6 = 1;
-                }
-            }*/
+
             if (flag_6 == 1) {
                 
                 if (k==3) {
@@ -193,13 +203,7 @@ public:
                 }
                      
             }
-            /*if (flag_7 == 1) {
-                move_toward(150, 0, 50, 10);
-                if (position().x <= -149 && position().y >= 0) {
-                    flag_7 = 0;
-                    flag_8 = 1;
-                }
-            }*/
+
             if (flag_8 == 1) {
                 move_toward(250, 0, 50 ,10);
                 if (position().x >= 249 && position().y <= -0.1) {
@@ -245,8 +249,12 @@ public:
             }
         }
     }
+
     void stop() {}
 
+    /*
+    This function reset my all flags so that, the robot can repeat it's path.
+    */
     void reset_flag() {
         flag_1 = 0;
         flag_2 = 0;
