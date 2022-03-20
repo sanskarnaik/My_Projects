@@ -1,0 +1,19 @@
+{
+    "name": "Block5",
+    "type": "dynamic",
+    "description": "Replace this string with a description",
+    "shape": [
+        { "x": -5, "y": 5 },
+        { "x": 5, "y": 5 },
+        { "x": 5, "y": -5 },
+        { "x": -5, "y": -5 }
+    ],
+    "friction": {
+      "collision": 5,
+      "linear": 20,
+      "rotational": 200
+    },
+    "sensors": [],
+    "mass": 0.25,    
+    "controller": "lib/block.so"
+}

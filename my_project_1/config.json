@@ -1,0 +1,285 @@
+{
+
+    "name": "My Enviro Project",
+    "ip": "0.0.0.0",
+    "port": 8765,
+
+    "agents": [  
+        {
+            "definition": "defs/my_robot.json",
+            "style": { "fill": "green", "stroke": "black" },
+            "position": {
+                "x": -575,
+                "y": 0,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/my_robot.json",
+            "style": { "fill": "red", "stroke": "black" },
+            "position": {
+                "x": 575,
+                "y": 0,
+                "theta": 3.14
+            }
+        },
+        {
+            "definition": "defs/block1.json",
+            "style": { "fill": "green", "stroke": "black" },
+            "position": {
+              "x": -200,
+              "y": 230,
+              "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block2.json",
+            "style": { "fill": "green", "stroke": "black" },
+            "position": {
+              "x": -200,
+              "y": 80,
+              "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block3.json",
+            "style": { "fill": "green", "stroke": "black" },
+            "position": {
+              "x": -200,
+              "y": -20,
+              "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block4.json",
+            "style": { "fill": "green", "stroke": "black" },
+            "position": {
+              "x": -200,
+              "y": -130,
+              "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block5.json",
+            "style": { "fill": "green", "stroke": "black" },
+            "position": {
+              "x": -200,
+              "y": -230,
+              "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block5.json",
+            "style": { "fill": "green", "stroke": "black" },
+            "position": {
+              "x": -100,
+              "y": 230,
+              "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block4.json",
+            "style": { "fill": "green", "stroke": "black" },
+            "position": {
+              "x": -100,
+              "y": 80,
+              "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block3.json",
+            "style": { "fill": "green", "stroke": "black" },
+            "position": {
+              "x": -100,
+              "y": -20,
+              "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block2.json",
+            "style": { "fill": "green", "stroke": "black" },
+            "position": {
+              "x": -100,
+              "y": -130,
+              "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block1.json",
+            "style": { "fill": "green", "stroke": "black" },
+            "position": {
+              "x": -100,
+              "y": -220,
+              "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block1.json",
+            "style": { "fill": "red", "stroke": "black" },
+            "position": {
+              "x": 200,
+              "y": 230,
+              "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block2.json",
+            "style": { "fill": "red", "stroke": "black" },
+            "position": {
+              "x": 200,
+              "y": 80,
+              "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block3.json",
+            "style": { "fill": "red", "stroke": "black" },
+            "position": {
+              "x": 200,
+              "y": -20,
+              "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block4.json",
+            "style": { "fill": "red", "stroke": "black" },
+            "position": {
+              "x": 200,
+              "y": -130,
+              "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block5.json",
+            "style": { "fill": "red", "stroke": "black" },
+            "position": {
+              "x": 200,
+              "y": -230,
+              "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block5.json",
+            "style": { "fill": "red", "stroke": "black" },
+            "position": {
+              "x": 100,
+              "y": 230,
+              "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block4.json",
+            "style": { "fill": "red", "stroke": "black" },
+            "position": {
+              "x": 100,
+              "y": 80,
+              "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block3.json",
+            "style": { "fill": "red", "stroke": "black" },
+            "position": {
+              "x": 100,
+              "y": -20,
+              "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block2.json",
+            "style": { "fill": "red", "stroke": "black" },
+            "position": {
+              "x": 100,
+              "y": -130,
+              "theta": 0
+            }
+        },
+        {
+            "definition": "defs/block1.json",
+            "style": { "fill": "red", "stroke": "black" },
+            "position": {
+              "x": 100,
+              "y": -220,
+              "theta": 0
+            }
+        }
+
+    ],
+
+    "statics": [
+        {
+            "style": { "fill": "green", "stroke": "none" },
+            "shape": [
+                { "x": -625, "y": -300 },
+                { "x": -625,  "y": 300 },
+                { "x": -610,  "y": 300 },
+                { "x": -610, "y": -300 }
+            ]
+        },
+        {
+            "style": { "fill": "red", "stroke": "none" },
+            "shape": [
+                { "x": 625, "y": -300 },
+                { "x": 625,  "y": 300 },
+                { "x": 610,  "y": 300 },
+                { "x": 610, "y": -300 }
+            ]
+        },
+        {
+            "style": { "fill": "black", "stroke": "none" },
+            "shape": [
+                { "x": -625, "y": 300 },
+                { "x": 625,  "y": 300 },
+                { "x": 625,  "y": 285 },
+                { "x": -625, "y": 285 }
+            ]
+        },
+        {
+            "style": { "fill": "black", "stroke": "none" },
+            "shape": [
+                { "x": -625, "y": -300 },
+                { "x": 625,  "y": -300 },
+                { "x": 625,  "y": -285 },
+                { "x": -625, "y": -285 }
+            ]
+        },
+        {
+            "style": { "fill": "red", "stroke": "none" },
+            "shape": [
+                { "x": 525, "y": -300 },
+                { "x": 525,  "y": -150 },
+                { "x": 510,  "y": -150 },
+                { "x": 510, "y": -300 }
+            ]
+        },
+        {
+            "style": { "fill": "green", "stroke": "none" },
+            "shape": [
+                { "x": -525, "y": -300 },
+                { "x": -525,  "y": -150 },
+                { "x": -510,  "y": -150 },
+                { "x": -510, "y": -300 }
+            ]
+        },
+        {
+            "style": { "fill": "red", "stroke": "none" },
+            "shape": [
+                { "x": 525, "y": 150 },
+                { "x": 525,  "y": 300 },
+                { "x": 510,  "y": 300 },
+                { "x": 510, "y": 150 }
+            ]
+        },
+        {
+            "style": { "fill": "green", "stroke": "none" },
+            "shape": [
+                { "x": -525, "y": 150 },
+                { "x": -525,  "y": 300 },
+                { "x": -510,  "y": 300 },
+                { "x": -510, "y": 150 }
+            ]
+        } 
+
+    ]
+
+}
