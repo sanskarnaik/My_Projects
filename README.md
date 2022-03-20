@@ -40,7 +40,7 @@ there are many steps to download:
 
     3) you can download my repo completely using the Download Zip Button.
 
-2. Describes how to run and/or use the project:
+2. How to run and/or use the project:
 
 Assuming you have docker installed,.
 Just run this command on terminal:
@@ -49,7 +49,9 @@ docker run -p80:80 -p8765:8765 -v $PWD:/source -it klavins/enviro:v1.4 bash
 use your local address in place of $PWD where you downloaded the code.
 
 After that just type:
+
 Make 
+
 enviro 
 
 after that:
