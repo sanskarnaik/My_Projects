@@ -10,7 +10,7 @@ Goal of the Project:
 
 1. First Project: I need to pull 10 boxes each from my single robot. The boxes are kept in the centre area in a grid. The robot goes to the box and bring the box to the marked area, and the box disappers.
 
-2. Second Project: For my second project, I need to move my robots through obstacles, pick the box, and to drop it in the marked area. I also need to repeat these steps for 10 times each for one robot.
+2. Second Project: I need to move my robots through obstacles, pick the box, and to drop it in the marked area. I also need to repeat these steps for 10 times each for one robot.
 
 Challenges I faced:
 
