@@ -22,7 +22,7 @@ Challenges I faced:
 
 4. Then to add and remove blocks, synchronously was a challenge, as the id() changes when you add or remove block, we need to keep a track on each id() of box.
 
-5. First I made code for the first robots, replicating the code for 2nd robot was difficult as, the directio changed and points changed too, thus making the robot move similar became a challenge.
+5. First I made code for the first robots, replicating the code for 2nd robot was difficult as, the direction changed and points changed too, thus making the robot move similar became a challenge.
 
 6. Then to choose a perfect point in the simulation where I can keep the boxes, so that each time robot comes and hit the same position.
 
