@@ -2,14 +2,15 @@ Holy Special:
 
 Happy Holi!!
 May God paint the canvas of your life with vibrant hues.
-When I made this, it was Holy in India, festival of colours.
+
+When I built this project, it was Holy in India, festival of colours.
 So I kept the theme of my simulation screen as colourful.
 
 Goal of the Project:
 
-1. For my first project, I need to pull 10 boxes each from my single robot. The boxes are kept in an area in a grid.The robot goes to the box and bring the box to the marked area, and the box disappers.
+1. First Project: I need to pull 10 boxes each from my single robot. The boxes are kept in the centre area in a grid. The robot goes to the box and bring the box to the marked area, and the box disappers.
 
-2. For my second project, I need to move my robots through obstacles, and to pick the box, and to drop it in the marked area. I also need to repeat these steps for 10 times each for one robot.
+2. Second Project: For my second project, I need to move my robots through obstacles, pick the box, and to drop it in the marked area. I also need to repeat these steps for 10 times each for one robot.
 
 Challenges I faced:
 
